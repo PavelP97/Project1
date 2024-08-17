@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Effect Example</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking the external CSS file -->
+</head>
+<body>
+
+    <audio id="background-music" loop>
+        <source src="music/1-18. Sweden.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Play Button -->
+    <button class="play-button" onclick="playMusic()">Play Music</button>
+
+    <!-- First Regular Section -->
+    <div class="section section-1">
+        Welcome to Parallax World
+    </div>
+
+    <!-- Parallax Section -->
+    <div class="parallax" style="background-image: url('images/wallpaper.jpeg');"></div>
+
+    <!-- Second Regular Section -->
+    <div class="section section-2">
+        Keep Scrolling for More
+    </div>
+
+    <!-- Parallax Section -->
+    <div class="parallax" style="background-image: url('images/Faker.webp');"></div>
+
+    <!-- Third Regular Section -->
+    <div class="section section-3">
+        That's the End!
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
